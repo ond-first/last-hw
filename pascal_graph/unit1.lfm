@@ -1,0 +1,81 @@
+object Form1: TForm1
+  Left = 495
+  Height = 703
+  Top = 152
+  Width = 1177
+  Caption = 'Form1'
+  ClientHeight = 703
+  ClientWidth = 1177
+  OnCreate = FormCreate
+  LCLVersion = '1.8.4.0'
+  object Button1: TButton
+    Left = 840
+    Height = 49
+    Top = 640
+    Width = 299
+    Caption = 'Запустить'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Button2: TButton
+    Left = 840
+    Height = 59
+    Top = 496
+    Width = 131
+    Caption = 'Влево'
+    OnClick = Button2Click
+    TabOrder = 1
+  end
+  object Button3: TButton
+    Left = 1008
+    Height = 59
+    Top = 496
+    Width = 131
+    Caption = 'Вправо'
+    OnClick = Button3Click
+    TabOrder = 2
+  end
+  object Button4: TButton
+    Left = 928
+    Height = 59
+    Top = 568
+    Width = 131
+    Caption = 'Вниз'
+    OnClick = Button4Click
+    TabOrder = 3
+  end
+  object Button5: TButton
+    Left = 928
+    Height = 59
+    Top = 416
+    Width = 131
+    Caption = 'Вверх'
+    OnClick = Button5Click
+    TabOrder = 4
+  end
+  object Button6: TButton
+    Left = 840
+    Height = 57
+    Top = 336
+    Width = 298
+    Caption = 'Повернуть по часовой стрелке'
+    OnClick = Button6Click
+    TabOrder = 5
+  end
+  object Button7: TButton
+    Left = 841
+    Height = 57
+    Top = 264
+    Width = 298
+    Caption = 'Повернуть против часовой стрелке'
+    OnClick = Button7Click
+    TabOrder = 6
+  end
+  object Timer1: TTimer
+    Enabled = False
+    Interval = 50
+    OnTimer = Timer1Timer
+    left = 16
+    top = 640
+  end
+end
